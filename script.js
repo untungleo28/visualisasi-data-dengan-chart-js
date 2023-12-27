@@ -8,7 +8,7 @@ var GKChartPie = document.getElementById('polar-chart').getContext('2d');
 new Chart (document.getElementById("bar-chart"),{
   type: 'bar',
   data: {
-    labels: ['Jakarta', 'Surabaya', 'Medan', 'Yogyakarta', 'Bandung', 'Semarang'],
+    labels: ['Jakarta', 'Surabaya', 'Medan', 'Yogyakarta', 'NTT', 'Semarang'],
     datasets: [{
       label: 'Populasi',
       data: [4647383, 2917688, 2499838, 2440717, 1671001, 1667131],
@@ -67,11 +67,11 @@ new Chart (document.getElementById("line-chart"), {
 new Chart (document.getElementById("pie-chart"), {
   type: 'pie',
   data: {
-    labels: ["Afrika", "Asia", "Eropa", "Amerika", "Australia"], 
+    labels: ["Afrika", "Asia", "Eropa", "Amerika", "Australia", "Malayasia"], 
     datasets: [{
       label: "Populasi (juta)",
       backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
-      data: [2478, 5267, 734, 784, 433]
+      data: [2478, 5267, 734, 784, 433, 5673]
     }]
   },
   options: {
